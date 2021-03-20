@@ -1,0 +1,214 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    background-color: #FFFBFB;
+}
+h1, h2, p, ul {
+    width:fit-content;
+    margin: 0 auto;
+}
+h1 {
+    font-size:xx-large;
+}
+h2 {
+    padding-bottom: 1em;
+    font-size: medium;
+}
+p {
+    padding: 20px;
+}
+hr {
+    width: 20em;
+    margin: 0 auto;
+}
+nav {
+    background-color: #FFD5CD;
+    padding: 30px 10px;
+}
+.navigation-links {
+    width: fit-content;
+    float: right;
+    margin-top: -10px;
+    padding-right: 20px;
+}
+.navigation-links li {  
+    list-style: none;
+    display: inline;
+    padding: 0.05em 0.6em;
+} /*je kan ook li een class geven en deze gebruiken, maar dit is makkelijker*/
+.navigation-links li:hover {
+    text-decoration: underline;
+}
+.a_navigation {
+    font-weight: 500;
+    text-decoration: none;
+    margin: 2em;
+}
+#logo {
+    float: left;
+    width: auto;
+    position: absolute;
+}   
+.header-home{
+    height: 800px;
+    width: 100%;
+    background: #FFFBFB;
+    overflow:hidden;
+    position: relative;
+}
+.introduction-header {
+    height: 150px;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.img-background {
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.4;
+}
+main {
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+#cvfoto {
+    width: 325px;
+    object-fit: cover;
+    margin:0 auto; /* doesnt work*/
+}
+.a-home-button:link {
+    color:#FFFBFB;
+    text-decoration: none;
+}
+.a-home-button:visited {
+    color:#FFFBFB;
+}
+.a-home-button:hover {
+    color:#FFFBFB;
+}
+a:link {
+    color:black;
+    text-decoration: none;
+}
+a:visited {
+    color:black;
+}
+a:hover {
+    color:black;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-top: 3em;
+    margin-bottom: 5em;
+}
+.section-contact, .section-overmij, .section-portfolio {
+    width: 80%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    margin-top: 3em;
+    margin-bottom: 5em;
+}
+body {
+    color: rgb(0, 0, 0);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.imgbox {
+    width: 60%;
+    margin: 0 auto;
+    border: none;
+}
+.imgbox div {
+    float: left;
+    padding-left: 8px;
+    width: 50%;
+    box-sizing: border-box;
+}
+.imgbox div img{
+    width: 100%;
+    max-width: 350px;
+}
+/*.imgbox {
+    display: inline-block;
+    width: 350px;
+    margin-right:auto;
+    margin-left: auto;
+    padding: 10px;
+    */
+}
+.imgbefore {
+    width: 40%;
+    margin: 0 auto;
+    box-sizing:border-box;
+}
+.imgafter {
+    width: 40%;
+    margin: 0 auto;
+    box-sizing:border-box;
+}
+.home-button {
+    background-color: #F9813A;
+    color: #FFFBFB;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.button {
+    background-color: #F9813A;
+    color: #FFFBFB;
+    padding: 10px 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0px;
+}
+ul {
+    list-style: none;
+}
+
+/*contact*/
+.my-form {
+    
+}
+.my-form label {
+    display:block;
+}
+.my-form input[type="text"], .my-form textarea {
+    padding: 8px;
+    width: 30%
+}
+/* going to use the button class instead
+.my-form input[type="submit"] {
+    background-color: rgb(252, 244, 236);
+    padding: 10px 15px;
+    border: none;
+}*/
+.form-group {
+    padding-bottom:15px;
+}
+
+@media only screen and (max-width: 768px ) {
+    h1, h2{
+        color: blue;
+    }
+}
+@media only screen and (max-width: 320px) {
+    h1 {
+        font-size: 24px;
+        line-height: 2em;
+    }
+    h2 {
+        font-size: 12px;
+    }    
+}
